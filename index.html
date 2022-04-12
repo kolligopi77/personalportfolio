@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Personal Portfolio</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript">
+        function togglemenu(){
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+    </script>
+  </head>
+  <body>
+      <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="contactme.htmls">Contact</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Kolli Gopi</span>
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+
+    <section class="jumbotron">
+      <div class="container">
+        <div class="col">
+          <h2>Welcome To My Personal Portfolio</h2>
+          <h3>List of programing languages</h3>
+          <ul>
+            <a href="https://html.com/" target="_blank">HTML</a>
+            <a href="https://css.com/ " target="_blank">CSS</a>
+            <a href="https://fullstackjava.com/" target="_blank">JAVASCRIPT</a> 
+          </ul>
+       </div>
+      </div>
+    </section>
+    <footer class="container">
+      <div class="col">
+        <p class="row-sm-6">&copy; 2019 Gopi</p>
+        <nav class="footer"> 
+          <ul>
+            <div>
+              <a href="https://www.linkedin.com/feed/">LINKEDIN</a>
+              <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2Fb%2F0%2FAddMailService&followup=https%3A%2F%2Faccounts.google.com%2Fb%2F0%2FAddMailService&flowName=GlifWebSignIn&flowEntry=ServiceLogin">GMAIL</a>
+              <a href="https://github.com/">GIT HUB</a>
+            </div>
+          </ul>  
+        </nav>
+       
+
+      </div>
+    </footer>
+
+    
+  </body>
+</html>
